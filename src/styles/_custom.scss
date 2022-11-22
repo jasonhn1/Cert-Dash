@@ -1,0 +1,58 @@
+// Here you can add other styles
+
+
+.dash-logo{
+    font-family: 'Comfortaa', sans-serif !important;
+    font-size: 30px;
+    
+}
+h1 {
+    margin-top: 10px;
+    background: linear-gradient(90deg, rgba(249,164,6,1) 0%, rgba(254,207,88,1) 49%, rgba(255,141,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.main-logo{
+    font-family: 'Comfortaa', sans-serif !important;
+    font-size: 50px;
+    color: #fc983a;
+}
+
+.sidebar{
+    --cui-sidebar-bg: #000015;
+}
+
+.footer{
+    background-color: #252525;
+}
+
+.card-bg{
+    background-color: #121231;
+}
+.table-bg{
+    background-color: #f5f5f5;
+}
+
+h2{
+    color: #f5f5f5;
+}
+
+.text-btn{
+    color: white;
+    pointer-events: none;
+    // background-color: #2ada85;
+}
+
+.btn-success {
+    background-color: #2ada85;
+}
+
+.btn-warning {
+    background-color: #e4c246;
+}
+
+.btn-danger {
+    background-color: #f65051;
+}
