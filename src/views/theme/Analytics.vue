@@ -1,9 +1,11 @@
 <template>
-  <CRow>
-    <CCol>
-      <WidgetsStatsA />
-    </CCol>
-  </CRow>
+  <div class="bg">
+    <CRow>
+      <CCol>
+        <WidgetsStatsA />
+      </CCol>
+    </CRow>
+  </div>
 </template>
 
 <script>

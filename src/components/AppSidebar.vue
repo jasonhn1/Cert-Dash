@@ -12,6 +12,7 @@
     "
   >
     <CSidebarBrand><h1 class="dash-logo">Certitude</h1></CSidebarBrand>
+    <div class="rectangle"></div>
     <AppSidebarNav />
     <CSidebarToggler
       class="d-none d-lg-flex"

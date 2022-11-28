@@ -7,14 +7,6 @@
       <CHeaderBrand class="mx-auto d-lg-none" to="/">
         <h1 class="main-logo">Certitude</h1>
       </CHeaderBrand>
-      <CHeaderNav class="d-none d-md-flex me-auto">
-        <CNavItem>
-          <CNavLink href="#">Users</CNavLink>
-        </CNavItem>
-        <CNavItem>
-          <CNavLink href="#">Settings</CNavLink>
-        </CNavItem>
-      </CHeaderNav>
       <CHeaderNav>
         <AppHeaderDropdownAccnt />
       </CHeaderNav>

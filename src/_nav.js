@@ -12,13 +12,13 @@ export default [
   {
     component: 'CNavItem',
     name: 'Expired',
-    to: '/theme/colors',
+    to: '/expired',
     icon: 'cil-XCircle',
   },
   {
     component: 'CNavItem',
     name: 'Analytics',
-    to: '/theme/typography',
+    to: '/analytics',
     icon: 'cil-ChartPie',
   },
 ]

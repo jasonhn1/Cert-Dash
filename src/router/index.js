@@ -24,12 +24,12 @@ const routes = [
         redirect: '/theme/typography',
       },
       {
-        path: '/theme/colors',
+        path: '/expired',
         name: 'Expired',
         component: () => import('@/views/theme/Expired.vue'),
       },
       {
-        path: '/theme/typography',
+        path: '/analytics',
         name: 'Analytics',
         component: () => import('@/views/theme/Analytics.vue'),
       },

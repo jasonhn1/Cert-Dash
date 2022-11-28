@@ -2,7 +2,9 @@
   <CRow>
     <CCol>
       <CCard class="mb-4">
-        <CCardHeader class="card-bg"> <h2>Candidate Links</h2> </CCardHeader>
+        <CCardHeader class="card-bg">
+          <h2 class="fonts">Candidate Links</h2>
+        </CCardHeader>
         <CCardBody class="card-bg">
           <CTable align="middle" class="mb-0 border table-bg" hover responsive>
             <CTableHead color="light">
@@ -81,3 +83,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.fonts {
+  font-family: 'Archivo Black';
+}
+</style>

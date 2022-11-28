@@ -1,9 +1,11 @@
 <template>
-  <div>
+  <div class="bg">
     <CRow>
       <CCol :md="12">
         <CCard class="mb-4">
-          <CCardHeader class="card-bg"> <h2>Candidate Links</h2> </CCardHeader>
+          <CCardHeader class="card-bg">
+            <h2 class="fonts">Candidate Links</h2>
+          </CCardHeader>
           <CCardBody class="card-bg">
             <CTable
               align="middle"
@@ -176,3 +178,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.fonts {
+  font-family: 'Archivo Black';
+}
+</style>
